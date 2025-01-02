@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="/elbriza/css/common.css">
 
 
+
   <?php require('inc/links.php'); ?>
   <title><?php echo $settings_r['site_title'] ?> - HOME</title>
   <style>

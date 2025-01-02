@@ -11,11 +11,18 @@
   <?php require('inc/links.php'); ?>
   <title><?php echo $settings_r['site_title'] ?> - HOME</title>
   <style>
+
+  ini_set('display_errors', 1);
+  ini_set('display_startup_errors', 1);
+  error_reporting(E_ALL);
+  
     .availability-form {
       margin-top: -50px;
       z-index: 2;
       position: relative;
     }
+
+    
 
     @media screen and (max-width: 575px) {
       .availability-form {

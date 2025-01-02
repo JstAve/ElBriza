@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/common.css">
+
   <?php require('inc/links.php'); ?>
   <title><?php echo $settings_r['site_title'] ?> - HOME</title>
   <style>
